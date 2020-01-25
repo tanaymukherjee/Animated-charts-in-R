@@ -24,4 +24,4 @@ ggplot(data, aes(x=group, y=values, fill=group)) +
   ease_aes('sine-in-out')
 
 # Save at gif:
-anim_save("288-animated-barplot-transition.gif")
+anim_save("barplot_animation.gif")
