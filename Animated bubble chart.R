@@ -18,7 +18,7 @@ ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, color = continent)) +
   ease_aes('linear')
 
 # Save at gif:
-anim_save("271-ggplot2-animated-gif-chart-with-gganimate1.gif")
+anim_save("bubble chart animation_1.gif")
 
 # Get data:
 library(gapminder)
@@ -40,4 +40,4 @@ ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country)) +
   ease_aes('linear')
 
 # Save at gif:
-anim_save("271-ggplot2-animated-gif-chart-with-gganimate2.gif")
+anim_save("bubble chart animation_2_faceted.gif")
